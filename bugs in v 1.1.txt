@@ -1,0 +1,4 @@
+1. sometimes downloads an artist's page/playlist
+2. refine search results, not just use first one- get 4-5 of them and find the most applicable
+3. better naming convention of songs
+4. if possible, generalize downloading from any list

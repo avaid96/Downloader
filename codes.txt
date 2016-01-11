@@ -1,0 +1,19 @@
+# # downloading a song with title.ext output file
+# youtube-dl --extract-audio --audio-format mp3 -o "%(title)s.%(ext)s" https://www.youtube.com/watch?v=okr-XE8yTO8
+
+# # downloading a playlist from youtube
+# youtube-dl --extract-audio --audio-format mp3 -o "%(title)s.%(ext)s" https://www.youtube.com/watch?v=RB-RcX5DS5A&list=PLzyYbaYKbahnEmFJFyxlURFHhSc74l5C7
+
+
+# running a bashcommand from python
+# # import subprocess
+# bashCommand = 'youtube-dl --extract-audio --audio-format mp3 -o "%(title)s.m4a" https://www.youtube.com/watch?v=okr-XE8yTO8'
+# process = subprocess.Popen(bashCommand.split(), stdout=subprocess.PIPE)
+# output = process.communicate()[0]
+# print count+" songs downloaded"
+
+# batch download
+# youtube-dl --extract-audio --audio-format mp3 -o "%(title)s.%(ext)s" -a iwant.txt
+
+# foldering~ Final command
+# youtube-dl --extract-audio --audio-format mp3 -o "D:/Utility/cool stuff/youtube downloads/songs/%(title)s.%(ext)s" -a links.txt --no-cache-dir   
